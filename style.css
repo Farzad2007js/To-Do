@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  direction: rtl;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3 1fr);
+  justify-self: center;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+  color: yellow;
+}
+
+h3 {
+  margin: 10px;
+  text-align: center;
+  color: blue;
+}
+
+.txt {
+  display: grid;
+  grid-template-columns: 0.1fr 3.9fr;
+  grid-row-gap: 5px;
+  padding: 25px;
+}
+
+#txt-app {
+  height: 40px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+#btn {
+  background-color: darkmagenta;
+  border-radius: 10px;
+  box-shadow: 3px 5px 2px darkmagenta;
+  font-size: 30px;
+}
+
+li {
+  font-size: 25px;
+  background-color: orangered;
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  font-size: 15px;
+  float: left;
+  margin-top: 6px;
+  margin-left: 5px;
+  background: none;
+  border: none;
+}
